@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.item-menu {
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+.signup{
+    color: #eeeee4;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 25px;
+}
+
+#nav {
+    display: flex;
+    gap: 60px; /* espaço entre os itens do menu */
+    margin-left: 40%; 
+    padding: 10px;
+}
+
+.cabecalho {
+    display: flex;
+    background-color: #eeeee4;
+    border-radius: 100px;
+    margin: 50px;
+}
+
+.imagem-header {
+    display: flex;
+    margin-left: 500px;
+    width: 30%; /* ou qualquer valor em % ou px para ajustar a largura */
+    height: auto; /* mantém a proporção da imagem */
+    max-width: 100%; /* garante que a imagem não exceda o contêiner */
+}
+
+.titulo-header {
+    font-size: 85px;
+    max-width: 10px;
+    line-height:100px;
+    margin-top: 100px;
+    margin-left: 110px;
+}
+
+.paragrafo-header {
+    font-size: 30px;
+    margin-left:110px;
+    margin-top: 30px;
+}
+
+.button-header {
+    background-color: #000000;
+    color: #eeeee4;
+    border-radius: 40px;
+    margin-left: 110px;
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.UNIQUE{
+    background-color: #f7e887;
+    border-radius: 5px;
+    width: 450px;
+    padding-left: 20px;
+    margin-left: -1rem;
+}
+
+.marcas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f7e887;
+    padding: 35px;
+}
+
+.marca-logo {
+    width: 1000px; 
+    height: 100px; 
+    margin-left: 90px;
+    margin-right: 90px;
+    object-fit: contain; /* Garante que a imagem se ajuste dentro do contêiner, mantendo a proporção */
+    margin: 10px; 
+}
+
+.new-arrivals{
+    color: #000000;
+    font-size: 60px;
+    margin: 80px 0px 70px 80px;
+}
+
+.card-arrivals {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.card-unidade-arrivals, .card-unidade-young {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px ;
+}
+
+.explore, .explore-young{
+    font-size: 20px;
+    padding-left: 20px;
+    background-color: #f7e887;
+    width: 160px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.payday {
+    display: flex;
+    margin-top: 80px;
+    background-color: #f7e887;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    justify-content: space-between; /* Espaça os elementos uniformemente */
+    gap: 300px; /* Espaçamento entre a imagem e o texto */
+}
+
+.imagem-payday {
+    width: 600px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-left: 200px;
+}
+
+.titulo-payday{
+    font-size: 100px;
+    line-height: 120px;
+}
+
+.texto-payday {
+    font-size: 25px;
+    width: 490px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex: 1; /* O texto ocupará o restante do espaço disponível */
+}
+
+
+.termos-payday{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.button-payday{
+    background-color: #000000;
+    color: #eeeee4;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.young-favourite{
+    color: #000000;
+    font-size: 60px;
+    margin: 80px 0px 70px 80px;
+}
+
+.cards-young{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+}

@@ -3,75 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <title>Fashion</title>
 </head>
 <body>
 
-    <header>
-        <img src="img/FASHION LOGO.png" alt="">
-        <nav>
-            <a href="#Catalogue">Catalogue</a>
-            <a href="#Fashion">Fashion</a>
-            <a href="#Favourite">Favourite</a>
-            <a href="#Lifestyle">Lifestyle</a>
-            <a href="#SignUp">Sign Up</a>
-        </nav>
-        <h1>Let's explore unique clothes</h1>
-        <p>Live for influential and innovativa fashion</p>
-        <button>Shop now!</button>
+    <header id="cabecalho-completo">
+        <div class="menu">
+            <img class="logotipo" src="img/FASHION LOGO.png" alt="">
+            <nav id="nav">
+                <a class="item-menu" href="#Catalogue">Catalogue</a>
+                <a class="item-menu"  href="#Fashion">Fashion</a>
+                <a class="item-menu"  href="#Favourite">Favourite</a>
+                <a class="item-menu"  href="#Lifestyle">Lifestyle</a>
+                <div class="sign-up">
+                    <a class="signup"  href="#SignUp">Sign Up</a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="cabecalho">
+            <div>
+            <h1 class="titulo-header">LET'S EXPLORE <div class="UNIQUE">UNIQUE</div> CLOTHES.</h1>
+            <p class="paragrafo-header">Live for influential and innovativa fashion</p>
+            <button class="button-header">Shop now!</button>
+            </div>
+            <img class="imagem-header" src="img/moca-cabecalho.png" alt="">
+        </div>
+
     </header>
 
     <main>
 
-        <section>
-            <img src="img/amazon.png" alt="Amazon">
-            <img src="img/hm.png" alt="HM">
-            <img src="img/lacoste.png" alt="Lacoste">
-            <img src="img/levis.png" alt="Levis">
-            <img src="img/obey.png" alt="Obey">
-            <img src="img/shopify.png" alt="Shopify">
+        <section class="marcas">
+            <img class="marca-logo" src="img/amazon.png" alt="Amazon">
+            <img class="marca-logo" src="img/hm.png" alt="HM">
+            <img class="marca-logo" src="img/lacoste.png" alt="Lacoste">
+            <img class="marca-logo" src="img/levis.png" alt="Levis">
+            <img class="marca-logo" src="img/obey.png" alt="Obey">
+            <img class="marca-logo" src="img/shopify.png" alt="Shopify">
         </section>  
 
         <section>
-            <h2>New Arrivals</h2>
-            <div>
-                <img src="img/card1.png" alt="">
-                <h3>Hoodies & Sweetshirt</h3>
-                <p>Explore now!</p>
+            <h2 class="new-arrivals">NEW ARRIVALS</h2>
+
+            <div class="card-arrivals">
+                <div class="card-unidade-arrivals">
+                    <img src="img/card1.png" alt="">
+                    <h3 class="titulo-cards">Hoodies & Sweetshirt</h3>
+                    <p class="explore">Explore now!</p>
+                </div>
+                <div class="card-unidade-arrivals">
+                    <img src="img/card2.png" alt="">
+                    <h3 class="titulo-cards">Cats & Parkas</h3>
+                    <p class="explore">Explore now</p>
+                </div>
+                <div class="card-unidade-arrivals">
+                    <img src="img/card3.png" alt="">
+                    <h3 class="titulo-cards">Tees & T-Shirt</h3>
+                    <p class="explore">Explore now!</p>
+                </div>
             </div>
-            <div>
-                <img src="img/card2.png" alt="">
-                <h3>Cats & Parkas</h3>
-                <p>Explore now</p>
-            </div>
-            <div>
-                <img src="img/card3.png" alt="">
-                <h3>Tees & T-Shirt</h3>
-                <p>Explore now!</p>
+        </section>
+
+        <section class="payday">
+            <img class="imagem-payday" src="img/MeninaDiv .png" alt="">
+            <div class="texto-payday">
+            <h2 class="titulo-payday">Payday <br> sale now!</h2>
+            <p class="texto-payday">Spend minimal $100 get 30% off voucher code for your next purchase</p>
+            <h3 class="data-payday">1 June - 10 June 2021</h3>
+            <p class="termos-payday">*Terms & Conditions apply</p>
+            <button class="button-payday">SHOP NOW</button>
             </div>
         </section>
 
         <section>
-            <img src="img/MeninaDiv.png" alt="">
-            <h2>Payday sale now!</h2>
-            <p>Spend minimal $100 get 30% off voucher code for your next purchase</p>
-            <h3>1 June - 10 June 2021</h3>
-            <p>*Terms & Conditions apply</p>
-            <button>SHOP NOW</button>
-        </section>
-
-        <section>
-            <h2>Young's Favourite</h2>
-            <div>
-                <img src="img/card4.png" alt="">
-                <h3>Trending on instagram</h3>
-                <p>Explore now!</p>
-            </div>
-            <div>
-                <img src="img/card5.png" alt="">
-                <h3>All under $40</h3>
-                <p>Explore now!</p>
+            <h2 class="young-favourite">Young's Favourite</h2>
+            <div class="cards-young">
+                <div class="card-unidade-young">
+                    <img src="img/card4.png" alt="">
+                    <h3>Trending on instagram</h3>
+                    <p class="explore-young">Explore now!</p>
+                </div>
+                <div class="card-unidade-young">
+                    <img src="img/card5.png" alt="">
+                    <h3>All under $40</h3>
+                    <p class="explore-young">Explore now!</p>
+                </div>
             </div>
         </section>
 
