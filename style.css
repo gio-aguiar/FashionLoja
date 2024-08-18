@@ -34,7 +34,7 @@
 
 #nav {
     display: flex;
-    gap: 60px; /* espaço entre os itens do menu */
+    gap: 60px; 
     margin-left: 40%; 
     padding: 10px;
 }
@@ -49,8 +49,8 @@
 .imagem-header {
     display: flex;
     margin-left: 500px;
-    width: 30%; /* ou qualquer valor em % ou px para ajustar a largura */
-    height: auto; /* mantém a proporção da imagem */
+    width: 30%; 
+    height: auto; 
     max-width: 100%; /* garante que a imagem não exceda o contêiner */
 }
 
@@ -99,7 +99,7 @@
     height: 100px; 
     margin-left: 90px;
     margin-right: 90px;
-    object-fit: contain; /* Garante que a imagem se ajuste dentro do contêiner, mantendo a proporção */
+    object-fit: contain; /* garantindo que a imagem se ajuste dentro do contêiner*/
     margin: 10px; 
 }
 
@@ -138,14 +138,14 @@
     margin-top: 80px;
     background-color: #f7e887;
     display: flex;
-    align-items: center; /* Centraliza verticalmente o conteúdo */
-    justify-content: space-between; /* Espaça os elementos uniformemente */
-    gap: 300px; /* Espaçamento entre a imagem e o texto */
+    align-items: center;
+    justify-content: space-between; 
+    gap: 300px; 
 }
 
 .imagem-payday {
-    width: 600px; /* Ajuste o tamanho da imagem conforme necessário */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 600px; 
+    height: auto; 
     margin-left: 200px;
 }
 
@@ -159,7 +159,7 @@
     width: 490px;
     margin-top: 10px;
     margin-bottom: 10px;
-    flex: 1; /* O texto ocupará o restante do espaço disponível */
+    flex: 1; /* o texto ovai ocupar o restante do espaço disponível */
 }
 
 
