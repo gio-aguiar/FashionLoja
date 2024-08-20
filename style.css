@@ -309,6 +309,20 @@
 }
 
 @media screen and (max-width: 1833px){
+       
+    #nav {
+        gap: 30px; 
+        margin-left: auto; 
+    }
+
+    .signup{
+        margin-left: auto;
+        margin-right: 80px;
+    }
+
+    .marcas{
+        overflow: hidden;
+    }
 
     .imagem-celular{
         padding-bottom: 100px;
@@ -319,35 +333,169 @@
         margin-right: 100px;
     }
 
-    .section-young{
-        display: none
+    .cards-young{
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .card-arrivals{
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .payday{
+        gap: 30px;
+    }
+    .titulo-payday{
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    .texto-payday{
+        font-size: 20px;
+    }
+
+    .button-payday{
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .payday img{
+        width: 600px;
+    }
+
+    #card1{
+        display: none;
+    }
+
+    #slide-second{
+        display: none;
     }
 
     .footer{
         display: flex;
         flex-direction: row;
     }
+
+    .imagem-header {
+        display: flex;
+        margin-right: 100px;
+        margin-left: auto;
+        width: 30%; 
+        height: auto; 
+        max-width: 100%; /* garante que a imagem não exceda o contêiner */
+    }
+
 }
 
+@media screen and (max-width: 1446px){
+    .mobile img{
+        width: 50%;
+    }
+    
+    .texto-mobile{
+        font-size: 20px;
+    }
 
-
-/*.mobile{
-    display: flex;
-    flex-direction: row;
-    margin-top: 100px;
-    margin-right: 200px;
-    margin-left: 300px;
+    .titulo-mobile{
+        font-size: 30px;
+    }
 }
 
-.texto-mobile{
-    display: flex;
-    flex-direction: column;
-    margin-top: 250px;
-    margin-right: 400px;
-    gap: 20px;
-    font-size: 35px;
+@media screen and (max-width: 1267px){
+    .cabecalho img{
+        display: none;
+    }
+
+    .cabecalho{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 100px;
+    }
+
+    .mobile{
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .texto-mobile{
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 70px;
+        gap: 20px;
+        font-size: 30px;
+    }
+
+    .imagem-celular{
+        display: none;
+    }
+
+    .stores{
+        width: 40%;
+    }
+    
+    .titulo-mobile{
+        font-size: 30px;
+    }
+
+    .payday img{
+        width: 400px;
+        margin-left: 30px;
+    }
+
+    .titulo-payday{
+        font-size: 70px;
+        line-height: 85px;
+    }
+
+    .texto-payday{
+        font-size:20px;
+    }
+
+    .button-payday{
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .footer{
+        padding:100px 50px 50px 50px;
+        gap: 50px;
+    }
+
 }
 
-.titulo-mobile{
-    font-size: 50px;
+@media screen and (max-width: 1031px){
+
+    #nav { 
+        display: none;
+    }
+
+    #card2{
+        display: none;
+    }
+    
+    .texto-payday{
+        width: auto;
+    }
+
+    .titulo-formulario{
+        font-size: 40px;
+    }
+
+    .formulario{
+        padding: 100px;
+        font-size: 20px;
+        gap: 20px;
+    }
+
+    .formulario input[type="text"] {
+        padding: 10px;
+    }
+
+    .formulario input[type="button"] {
+        padding: 10px 10px;
+    }    
 }
