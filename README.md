@@ -4,7 +4,7 @@ O projeto é uma loja de roupas fictícia criada para iniciar estudos em respons
 
 <img width = "1200px" src="https://i.ibb.co/Tk3LDxB/1.png"> 
 
-<img width = "500px" src="https://i.ibb.co/QpTcRPD/3.png">  <img width = "500px" src="https://i.ibb.co/wRdXzgs/2.png"> 
+<img width = "300px" src="https://i.ibb.co/QpTcRPD/3.png">  <img width = "300px" src="https://i.ibb.co/wRdXzgs/2.png"> 
 
 ## Documentação de cores
 
